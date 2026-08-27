@@ -1,9 +1,12 @@
+
+
 ---
 
+```markdown
 🔥 Extract-Website – Complete Website Extractor
 
 <p align="center">
-  <img src="https://github.com/shahid2005a/Extract-Website-/blob/main/logo.png?raw=true" alt="Extract-Website Logo" width="300"/>
+  <img src="https://github.com/shahid2005a/Extract-Website-/blob/main/Website%20Extrect/Extrect.png?raw=true" alt="Extract-Website Logo" width="300"/>
 </p>
 
 <p align="center">
@@ -34,7 +37,6 @@
   <img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux-important?style=for-the-badge&logo=linux&logoColor=white" alt="Platform"/>
   <img src="https://img.shields.io/badge/Tool-Website_Extractor-00BFFF?style=for-the-badge&logo=web&logoColor=white" alt="Tool"/>
   <img src="https://img.shields.io/badge/Code-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Bot-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
   <img src="https://img.shields.io/badge/Size-50KB-blue?style=for-the-badge&logo=files&logoColor=white" alt="Size"/>
   <img src="https://img.shields.io/badge/Stars-300%2B-yellow?style=for-the-badge&logo=github&logoColor=white" alt="Stars"/>
   <img src="https://img.shields.io/badge/Code_Coverage-95%25-success?style=for-the-badge&logo=codecov&logoColor=white" alt="Coverage"/>
@@ -222,9 +224,9 @@ Example Output:
 
 🔹 Dgtl Folder(Sever)
 
-  · download <file> – Download file
-  
-  · 🌐 Extract Website – Trigger
+· download <file> – Download file
+
+· 🌐 Extract Website – Trigger
 
 ---
 
@@ -290,9 +292,6 @@ Issue Solution Status
   <a href="https://www.youtube.com/@aryanafridi00">
     <img src="https://img.shields.io/badge/▶️_YouTube-Aryan_Afridi-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
   </a>
-  <a href="https://t.me/GsmhackerBot">
-    <img src="https://img.shields.io/badge/📱_Telegram-GsmhackerBot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
-  </a>
   <a href="https://github.com/shahid2005a">
     <img src="https://img.shields.io/badge/🐙_GitHub-shahid2005a-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
@@ -318,10 +317,6 @@ Issue Solution Status
 
   <a href="https://whatsapp.com/channel/0029VbD1uw37T8bQVsv5gc2n">
     <img src="https://img.shields.io/badge/📢_Follow_Channel-075E54?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-  </a>
-
-  <a href="https://t.me/GsmhackerBot">
-    <img src="https://img.shields.io/badge/🗂️_Dgtl_Folder-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
 
   <a href="https://www.youtube.com/@aryanafridi00">
@@ -493,6 +488,6 @@ v2.0.0 Telegram bot integration + ZIP compression 🔒 High ✅ Latest
     <img src="https://img.shields.io/badge/📱-PayTM-20338A?style=for-the-badge&logo=paytm&logoColor=white"/>
   </a>
 </p>
+```
 
 ---
-
