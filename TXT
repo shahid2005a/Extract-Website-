@@ -1,0 +1,176 @@
+# ============================================================
+# 📄 .env
+# ============================================================
+SECRET_KEY=your-super-secret-key-change-this
+FLASK_DEBUG=True
+APP_PORT=5000
+
+# ============================================================
+# 📄 requirements.txt
+# ============================================================
+Flask==3.0.0
+python-dotenv==1.0.0
+waitress==3.0.0
+
+# ============================================================
+# 📄 run.py
+# ============================================================
+from app import create_app
+from app.config import Config
+import logging
+
+app = create_app()
+
+if __name__ == '__main__':
+    if Config.DEBUG:
+        app.run(debug=True, host='0.0.0.0', port=Config.PORT)
+    else:
+        from waitress import serve
+        logging.info(f"🔥 Production server chal raha hai on port {Config.PORT}")
+        serve(app, host='0.0.0.0', port=Config.PORT)
+
+# ============================================================
+# 📄 app/__init__.py
+# ============================================================
+from flask import Flask
+from .config import Config
+from .routes import main_bp
+import logging
+
+def create_app():
+    app = Flask(__name__)
+    app.config.from_object(Config)
+
+    logging.basicConfig(level=logging.INFO)
+    app.logger.info("🚀 Website serve ho rahi hai...")
+
+    app.register_blueprint(main_bp)
+
+    @app.errorhandler(404)
+    def not_found(e):
+        return "<h1>404</h1><p>Bhai, ye page nahi mila!</p>", 404
+
+    @app.errorhandler(500)
+    def internal_error(e):
+        return "<h1>500</h1><p>Internal Server Error! Kuch to gadbad hai.</p>", 500
+
+    return app
+
+# ============================================================
+# 📄 app/config.py
+# ============================================================
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+class Config:
+    SECRET_KEY = os.getenv('SECRET_KEY', 'dev-key-123')
+    DEBUG = os.getenv('FLASK_DEBUG', 'True').lower() == 'true'
+    PORT = int(os.getenv('APP_PORT', 5000))
+
+# ============================================================
+# 📄 app/routes.py
+# ============================================================
+from flask import Blueprint, render_template
+
+main_bp = Blueprint('main', __name__)
+
+@main_bp.route('/')
+def home():
+    context = {
+        'title': 'Ghar ka Page',
+        'heading': 'Namaste Dosto!',
+        'subtext': 'Python + Flask se professional serve ho raha hai 💪'
+    }
+    return render_template('index.html', **context)
+
+@main_bp.route('/about')
+def about():
+    return "<h2>About Page</h2><p>Ye ek modern Python server hai.</p>"
+
+# ============================================================
+# 📄 app/templates/base.html
+# ============================================================
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Website{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="bg-gray-50 font-sans">
+    <nav class="bg-white shadow-lg border-b border-gray-200">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-blue-600">🚀 MySite</a>
+            <div>
+                <a href="/" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                <a href="/about" class="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto px-4 py-10">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 mt-10 py-6 text-center text-gray-500 text-sm">
+        © 2026 Made with ❤️ in Python
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+
+# ============================================================
+# 📄 app/templates/index.html
+# ============================================================
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 text-center border border-gray-100">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+        {{ heading }}
+    </h1>
+    <p class="text-xl text-gray-600 mb-6">{{ subtext }}</p>
+    <div class="inline-block bg-blue-50 text-blue-700 px-6 py-3 rounded-full text-sm font-semibold">
+        ⚡ Server Status: Active
+    </div>
+
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+        <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+            <h3 class="font-bold text-lg">🔒 Secure</h3>
+            <p class="text-gray-600 text-sm">Environment variables se protect.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+            <h3 class="font-bold text-lg">⚡ Fast</h3>
+            <p class="text-gray-600 text-sm">Production-ready Waitress server.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+            <h3 class="font-bold text-lg">🎨 Modern</h3>
+            <p class="text-gray-600 text-sm">Tailwind CSS with responsive UI.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+# ============================================================
+# 📄 app/static/css/style.css
+# ============================================================
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+
+# ============================================================
+# 📄 app/static/js/script.js
+# ============================================================
+console.log("🚀 Website serve ho rahi hai! Bhai mast code hai.");
