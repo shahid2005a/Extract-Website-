@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=500&color=00BFFF&center=true&vCenter=true&width=700&lines=Extract-Website+Tool;Full+Website+Extractor;HTML+%2B+CSS+%2B+JS;Telegram+Bot+Integrated;By+Aryan+Afridi" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=500&color=00BFFF&center=true&vCenter=true&width=700&lines=Extract-Website+Tool;Full+Website+Extractor;HTML+%2B+CSS+%2B+JS;Dgtl Folder+Save+Intarnal Storage;By+Aryan+Afridi" alt="Typing SVG" />
 </p>
 
 ---
@@ -42,7 +42,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/🌐-Website_Extractor-00BFFF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🤖-Telegram_Bot-26A5E4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🗂️-Dgtl_Folder-26A5E4?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/📦-ZIP_Compression-FFA500?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/📂-File_Manager-4CAF50?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🔒-Secure-2ECC71?style=for-the-badge"/>
@@ -74,7 +74,7 @@
       <td><img src="https://img.shields.io/badge/⚡-Fast-green"/></td>
     </tr>
     <tr>
-      <td>🤖 <b>Telegram Bot</b><br/><sub>File manager + extractor</sub></td>
+      <td>🗂️ <b>Dgtl Folder</b><br/><sub>File manager + extractor</sub></td>
       <td><img src="https://img.shields.io/badge/✅-Active-brightgreen?style=for-the-badge"/></td>
       <td><img src="https://img.shields.io/badge/🔒-Secure-success"/></td>
       <td><img src="https://img.shields.io/badge/🟢-Authorized-green"/></td>
@@ -220,30 +220,21 @@ Example Output:
 📦 ZIP: /storage/emulated/0/Dgtl/example.com_website.zip (5.81 KB)
 ```
 
-🔹 Telegram Bot (Background)
+🔹 Dgtl Folder(Sever)
 
-· Bot starts automatically with the script.
-· Interact via Telegram: @AryaXBot (or your own bot token)
-· Commands:
-  · /start – Main menu
-  · /help – Help guide
-  · /ls – List files
-  · /cd <path> – Change directory
-  · /download <file> – Download file
-  · /status – System info
-  · 🌐 Extract Website – Trigger extraction via bot
+  · download <file> – Download file
+  
+  · 🌐 Extract Website – Trigger
 
 ---
 
-🛠️ Configuration (Telegram Bot Token)
+🛠️ Configuration (Dgtl Folder)
 
 Edit main.py and replace:
 
-```python
-TOKEN = 'YOUR_BOT_TOKEN_HERE'
 ```
-
-Get your token from @BotFather on Telegram.
+Save file Website code = Dgtl folder 
+```
 
 ---
 
@@ -254,7 +245,6 @@ Issue Solution Status
 ❌ pip: command not found pkg install python-pip ✅ Fixed
 ❌ Permission denied termux-setup-storage ✅ Fixed
 ❌ No module 'requests' pip install requests ✅ Fixed
-❌ No module 'telebot' pip install pyTelegramBotAPI ✅ Fixed
 ❌ Storage not accessible Run termux-setup-storage and allow permission ✅ Fixed
 ❌ Wget failed Check internet connection ✅ Fixed
 
@@ -331,7 +321,7 @@ Issue Solution Status
   </a>
 
   <a href="https://t.me/GsmhackerBot">
-    <img src="https://img.shields.io/badge/🤖_Telegram_Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
+    <img src="https://img.shields.io/badge/🗂️_Dgtl_Folder-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
 
   <a href="https://www.youtube.com/@aryanafridi00">
@@ -350,7 +340,7 @@ Issue Solution Status
 
 <p align="center">
   <img src="https://img.shields.io/badge/🌐-Website_Extractor-00BFFF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/🤖-Telegram_Bot-26A5E4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🗂️-Dgtl_Folder-26A5E4?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/📦-ZIP_Compression-FFA500?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/📂-File_Manager-4CAF50?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/🔒-Secure-2ECC71?style=for-the-badge"/>
@@ -506,4 +496,3 @@ v2.0.0 Telegram bot integration + ZIP compression 🔒 High ✅ Latest
 
 ---
 
-Ye README Extract-Website repository ke liye hai, bilkul DGTL-FF jaisi styling ke saath, lekin bina kisi git clone command ke – sab kuch direct wget se download kar sakte hain. Agar aapko koi aur change chahiye toh batao! 🚀
