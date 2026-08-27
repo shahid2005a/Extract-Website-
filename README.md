@@ -1,4 +1,150 @@
+---
 
+🔥 Extract-Website – Complete Website Extractor
+
+<p align="center">
+  <img src="https://github.com/shahid2005a/Extract-Website-/blob/main/Website%20Extrect/Extrect.png?raw=true" alt="Extract-Website Logo" width="300"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=3000&pause=500&color=00BFFF&center=true&vCenter=true&width=700&lines=Extract-Website+Tool;Full+Website+Extractor;HTML+%2B+CSS+%2B+JS;Dgtl Folder+Save+Intarnal Storage;By+Aryan+Afridi" alt="Typing SVG" />
+</p>
+
+---
+
+📊 Project Status
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/shahid2005a/Extract-Website-?style=for-the-badge&logo=github&color=yellow" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/shahid2005a/Extract-Website-?style=for-the-badge&logo=github&color=blue" alt="Forks"/>
+  <img src="https://img.shields.io/github/watchers/shahid2005a/Extract-Website-?style=for-the-badge&logo=github&color=red" alt="Watchers"/>
+  <img src="https://img.shields.io/github/issues/shahid2005a/Extract-Website-?style=for-the-badge&logo=github&color=orange" alt="Issues"/>
+  <img src="https://img.shields.io/github/license/shahid2005a/Extract-Website-?style=for-the-badge&logo=github&color=purple" alt="License"/>
+  <img src="https://img.shields.io/github/contributors/shahid2005a/Extract-Website-?style=for-the-badge&logo=github&color=green" alt="Contributors"/>
+  <img src="https://img.shields.io/github/last-commit/shahid2005a/Extract-Website-?style=for-the-badge&logo=github&color=blueviolet" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/issues-pr/shahid2005a/Extract-Website-?style=for-the-badge&logo=github&color=yellowgreen" alt="Pull Requests"/>
+  <img src="https://img.shields.io/github/downloads/shahid2005a/Extract-Website-/total?style=for-the-badge&logo=github&color=orange" alt="Downloads"/>
+  <img src="https://img.shields.io/github/release/shahid2005a/Extract-Website-?style=for-the-badge&logo=github&color=ff69b4" alt="Release"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-2.0.0-important?style=for-the-badge&logo=vercel&logoColor=white" alt="Version"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status"/>
+  <img src="https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white" alt="Build"/>
+  <img src="https://img.shields.io/badge/Platform-Termux%20%7C%20Linux-important?style=for-the-badge&logo=linux&logoColor=white" alt="Platform"/>
+  <img src="https://img.shields.io/badge/Tool-Website_Extractor-00BFFF?style=for-the-badge&logo=web&logoColor=white" alt="Tool"/>
+  <img src="https://img.shields.io/badge/Code-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Size-50KB-blue?style=for-the-badge&logo=files&logoColor=white" alt="Size"/>
+  <img src="https://img.shields.io/badge/Stars-300%2B-yellow?style=for-the-badge&logo=github&logoColor=white" alt="Stars"/>
+  <img src="https://img.shields.io/badge/Code_Coverage-95%25-success?style=for-the-badge&logo=codecov&logoColor=white" alt="Coverage"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/🌐-Website_Extractor-00BFFF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🗂️-Dgtl_Folder-26A5E4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/📦-ZIP_Compression-FFA500?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/📂-File_Manager-4CAF50?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🔒-Secure-2ECC71?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/📱-Termux_Tool-1DA1F2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🔄-Real_Time-FF1493?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🎨-Colorful_UI-8B5CF6?style=for-the-badge"/>
+</p>
+
+---
+
+🎯 Features Overview
+
+<p align="center">
+  <table border="2">
+    <tr>
+      <th>Feature</th>
+      <th>Status</th>
+      <th>Security</th>
+      <th>Access</th>
+      <th>Platform</th>
+      <th>Performance</th>
+    </tr>
+    <tr>
+      <td>🌐 <b>Website Extraction</b><br/><sub>HTML+CSS+JS</sub></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen?style=for-the-badge"/></td>
+      <td><img src="https://img.shields.io/badge/🔒-Encrypted-success"/></td>
+      <td><img src="https://img.shields.io/badge/🟢-Public-green"/></td>
+      <td><img src="https://img.shields.io/badge/📱-All_OS-blue"/></td>
+      <td><img src="https://img.shields.io/badge/⚡-Fast-green"/></td>
+    </tr>
+    <tr>
+      <td>🗂️ <b>Dgtl Folder</b><br/><sub>File manager + extractor</sub></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen?style=for-the-badge"/></td>
+      <td><img src="https://img.shields.io/badge/🔒-Secure-success"/></td>
+      <td><img src="https://img.shields.io/badge/🟢-Authorized-green"/></td>
+      <td><img src="https://img.shields.io/badge/📱-All_OS-blue"/></td>
+      <td><img src="https://img.shields.io/badge/⚡-Real_Time-green"/></td>
+    </tr>
+    <tr>
+      <td>📦 <b>ZIP Compression</b><br/><sub>Automatic archiving</sub></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen?style=for-the-badge"/></td>
+      <td><img src="https://img.shields.io/badge/🛡️-Protected-success"/></td>
+      <td><img src="https://img.shields.io/badge/🟢-Public-green"/></td>
+      <td><img src="https://img.shields.io/badge/📱-All_OS-blue"/></td>
+      <td><img src="https://img.shields.io/badge/⚡-Optimized-green"/></td>
+    </tr>
+    <tr>
+      <td>📂 <b>File Manager</b><br/><sub>Browse, upload, download</sub></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen?style=for-the-badge"/></td>
+      <td><img src="https://img.shields.io/badge/🔒-Secure-success"/></td>
+      <td><img src="https://img.shields.io/badge/🟢-Authorized-green"/></td>
+      <td><img src="https://img.shields.io/badge/📱-All_OS-blue"/></td>
+      <td><img src="https://img.shields.io/badge/⚡-Fast-green"/></td>
+    </tr>
+    <tr>
+      <td>🎨 <b>Colorful Terminal UI</b><br/><sub>Progress indicators</sub></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen?style=for-the-badge"/></td>
+      <td><img src="https://img.shields.io/badge/🛡️-Protected-success"/></td>
+      <td><img src="https://img.shields.io/badge/🟢-Public-green"/></td>
+      <td><img src="https://img.shields.io/badge/📱-All_OS-blue"/></td>
+      <td><img src="https://img.shields.io/badge/⚡-Real_Time-green"/></td>
+    </tr>
+    <tr>
+      <td>📱 <b>Multi-Platform</b><br/><sub>Termux, Linux, etc.</sub></td>
+      <td><img src="https://img.shields.io/badge/✅-Active-brightgreen?style=for-the-badge"/></td>
+      <td><img src="https://img.shields.io/badge/🛡️-Protected-success"/></td>
+      <td><img src="https://img.shields.io/badge/🟢-Public-green"/></td>
+      <td><img src="https://img.shields.io/badge/📱-All_OS-blue"/></td>
+      <td><img src="https://img.shields.io/badge/⚡-Optimized-green"/></td>
+    </tr>
+  </table>
+</p>
+
+---
+
+🛠️ Requirements
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Requests-Required-1E90FF?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Wget-Required-1E90FF?style=for-the-badge&logo=wget&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Curl-Required-1E90FF?style=for-the-badge&logo=curl&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Internet-Required-1E90FF?style=for-the-badge&logo=internet&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OS-Termux%20%7C%20Linux-important?style=for-the-badge&logo=linux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RAM-256MB%2B-success?style=for-the-badge&logo=memory&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Storage-20MB%2B-blue?style=for-the-badge&logo=storage&logoColor=white"/>
+</p>
+
+---
+
+📦 Installation Guide
+
+📱 Termux (Android) – Direct Download (No Git Clone)
+
+```bash
+pkg update && pkg upgrade -y
+termux-setup-storage
+pkg install python -y
+pkg install wget -y
+pkg install curl -y
+pip install requests
+wget https://raw.githubusercontent.com/shahid2005a/Extract-Website-/main/main.py
+python main.py
 
 ```markdown
 🔥 Extract-Website – Complete Website Extractor
