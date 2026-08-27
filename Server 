@@ -1,0 +1,17 @@
+my_website/
+├── .env
+├── .gitignore
+├── requirements.txt
+├── run.py
+└── app/
+    ├── __init__.py
+    ├── config.py
+    ├── routes.py
+    ├── static/
+    │   ├── css/
+    │   │   └── style.css
+    │   └── js/
+    │       └── script.js
+    └── templates/
+        ├── base.html
+        └── index.html
