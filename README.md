@@ -1,7 +1,5 @@
 
 
----
-
 ```markdown
 🔥 Extract-Website – Complete Website Extractor
 
