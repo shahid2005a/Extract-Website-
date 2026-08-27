@@ -1,0 +1,60 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# install.sh – Setup Termux command for Website Extractor
+
+set -e
+
+echo "🔧 Installing Termux Website Extractor Command..."
+
+# 1. Install Python dependencies
+echo "📦 Installing required Python packages..."
+pip install requests pyTelegramBotAPI flask
+
+# 2. Determine where the main script lives
+# Assume the main Python file is named "termux_extractor.py" and is in the current directory
+MAIN_SCRIPT="termux_extractor.py"
+if [ ! -f "$MAIN_SCRIPT" ]; then
+    echo "❌ $MAIN_SCRIPT not found in current directory."
+    echo "Please place your main script named $MAIN_SCRIPT in this folder and run again."
+    exit 1
+fi
+
+# 3. Make the main script executable
+chmod +x "$MAIN_SCRIPT"
+
+# 4. Create a launcher script in $PREFIX/bin (in PATH)
+LAUNCHER="$PREFIX/bin/webextract"
+cat > "$LAUNCHER" << 'EOF'
+#!/data/data/com.termux/files/usr/bin/bash
+# Launcher for Website Extractor
+python3 /data/data/com.termux/files/home/termux_extractor.py
+EOF
+
+# Replace the path inside the launcher with the actual absolute path of the main script
+SCRIPT_DIR=$(pwd)
+sed -i "s|/data/data/com.termux/files/home/termux_extractor.py|$SCRIPT_DIR/termux_extractor.py|g" "$LAUNCHER"
+
+chmod +x "$LAUNCHER"
+echo "✅ Command 'webextract' installed in $PREFIX/bin"
+
+# 5. Optional: create a separate command for the web server
+if [ -f "server.py" ]; then
+    SERVER_LAUNCHER="$PREFIX/bin/webextract-server"
+    cat > "$SERVER_LAUNCHER" << 'EOF'
+#!/data/data/com.termux/files/usr/bin/bash
+# Launcher for Web Server
+python3 /data/data/com.termux/files/home/server.py
+EOF
+    sed -i "s|/data/data/com.termux/files/home/server.py|$SCRIPT_DIR/server.py|g" "$SERVER_LAUNCHER"
+    chmod +x "$SERVER_LAUNCHER"
+    echo "✅ Command 'webextract-server' installed for the web server."
+else
+    echo "ℹ️  server.py not found – skipping web server command."
+fi
+
+echo ""
+echo "🎉 Installation complete!"
+echo "Now you can run:"
+echo "  webextract        – to start the extractor + Telegram bot"
+echo "  webextract-server – to start the web server (if server.py exists)"
+echo ""
+echo "Make sure you have termux-setup-storage run already."
