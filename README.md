@@ -143,7 +143,7 @@ termux-setup-storage
 pkg install python -y
 pkg install wget -y
 pkg install curl -y
-pip install requests pyTelegramBotAPI
+
 wget https://raw.githubusercontent.com/shahid2005a/Extract-Website-/main/main.py
 python main.py
 ```
@@ -153,7 +153,7 @@ python main.py
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip wget curl -y
-pip3 install requests pyTelegramBotAPI
+
 wget https://raw.githubusercontent.com/shahid2005a/Extract-Website-/main/main.py
 python3 main.py
 ```
@@ -163,7 +163,7 @@ python3 main.py
 ```bash
 sudo dnf update -y
 sudo dnf install python3 python3-pip wget curl -y
-pip3 install requests pyTelegramBotAPI
+
 wget https://raw.githubusercontent.com/shahid2005a/Extract-Website-/main/main.py
 python3 main.py
 ```
@@ -171,7 +171,7 @@ python3 main.py
 ⚡ Single Command Installation (Termux)
 
 ```bash
-pkg update && pkg upgrade -y && termux-setup-storage && pkg install python wget curl -y && pip install requests pyTelegramBotAPI && wget https://raw.githubusercontent.com/shahid2005a/Extract-Website-/main/main.py && python main.py
+pkg update && pkg upgrade -y && termux-setup-storage && pkg install python wget curl -y && wget https://raw.githubusercontent.com/shahid2005a/Extract-Website-/main/main.py && python main.py
 ```
 
 ---
@@ -183,7 +183,7 @@ pkg update && pkg upgrade -y && termux-setup-storage && pkg install python wget 
 wget https://raw.githubusercontent.com/shahid2005a/Extract-Website-/main/main.py
 
 # Install dependencies
-pip install requests pyTelegramBotAPI
+
 
 # Run the tool
 python main.py
